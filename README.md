@@ -13,7 +13,8 @@ Management requests an analysis and a report to answer the following questions:
 4.	Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?
 
 
-
+##
+##
 <img width="1009" height="566" alt="image" src="https://github.com/user-attachments/assets/7b618b70-03d1-4d9d-b77c-eee8a8198c90" />
 
 **Overall Churn Rate:**
@@ -37,8 +38,9 @@ Management requests an analysis and a report to answer the following questions:
 - With a 70% failure rate at the entry level, the company needs to **look at its product or service offerings**. For instance, is the product too difficult to set up? CloudTask Pro should consider a "welcome call" or a simplified "quick-start" guide specifically for starter users to ensure they reach their first "win" with the cloud software quickly.
 - CloudTask Pro should look at who is referring these customers. The company may be incentivizing the "wrong" kind of sign-ups. The company should consider **changing the referral bonus** so it is only paid out after the new customer has stayed for at least 3 or 6 months.
 
-##
 
+##
+##
 
 <img width="1002" height="567" alt="image" src="https://github.com/user-attachments/assets/9d1a788b-ef03-4163-b71b-53699ab30985" />
 
@@ -48,4 +50,30 @@ Management requests an analysis and a report to answer the following questions:
 - The final four months of the year (September–December) show a consistent "cooling" of churn, suggesting that year-end budget cycles or stability in those months offer a natural buffer for the company.
 - The link between "missing features" and the April churn spike indicates that the company’s research and development roadmap is currently trailing behind the market's expectations for a product with better/upgraded features.
 
+##
+##
+
+<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/7088d9e9-fdc9-49c4-b092-97d657b77dfa" />
+
+
+
+
+
+##
+##
+<img width="1009" height="572" alt="image" src="https://github.com/user-attachments/assets/1be26f4c-5332-43cc-8251-fdf4c92ca210" />
+
+
+**Plan with the Highest Churn Rate**
+- The **starter plan has the highest churn rate at 70.51%**. This is a significant outlier compared to the others, followed by the professional plan at 47.98%. The enterprise plan is the most stable, with only a 22.00% churn rate.
+
+**Impact of Billing Cycle on Retention**
+- Yes, the billing cycle significantly impacts retention across almost all plans.
+  - **Monthly billing:** Overall churn rate is 60.51%.
+  - **Annual billing:** Overall churn rate is 40.32%.
+- By getting a customer to commit to an annual plan, the company reduces the likelihood of them leaving by roughly **20 percentage points**.
+- The enterprise plan is unique because it **maintains a stable churn rate (22%)** regardless of whether the customer is on a monthly or annual billing cycle. This suggests Enterprise customers make long-term decisions before they even sign up.
+
+**Strategic Recommendation:**
+- Since the starter plan with monthly billing is the company’s highest-risk area (76.87% churn), management should **consider removing the monthly option for the starter tier entirely** or **offering a very aggressive discount to push those users into an annual starter plan** to "force" higher retention.
 
