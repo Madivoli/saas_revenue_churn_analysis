@@ -77,3 +77,20 @@ Management requests an analysis and a report to answer the following questions:
 **Strategic Recommendation:**
 - Since the starter plan with monthly billing is the company’s highest-risk area (76.87% churn), management should **consider removing the monthly option for the starter tier entirely** or **offering a very aggressive discount to push those users into an annual starter plan** to "force" higher retention.
 
+##
+##
+**Unit Economics and Profitability Analysis**
+
+This section of the analysis highlights the relationship between **customer acquisition costs** and **long-term value**, providing a clear roadmap for where CloudTask Pro should allocate its next dollar of investment. The analysis **reveals a stark contrast in the profitability across the different tiers** of CloudTask Pro. By comparing the average Customer Lifetime Value (CLV/LTV) against the Customer Acquisition Cost (CAC), we can see exactly where the company’s most efficient growth is coming from.
+
+<img width="1350" height="192" alt="image" src="https://github.com/user-attachments/assets/62933201-037e-4ebc-9ab0-13006eaf0641" />
+
+**The Profitability Landscape (LTV vs. CAC)**
+
+The analysis reveals a significant disparity in customer acquisition efficiency across plans. While the cost to acquire a customer (CAC) is remarkably consistent across the board (averaging $200), the Lifetime Value (LTV) varies by a factor of 14 between the lowest and highest tiers.
+- **The enterprise plan is the most profitable tier.** With an LTV:CAC ratio of 412:1, for every $1 spent on acquisition, CloudTask Pro generates over $400 in lifetime value. What is particularly striking is that it costs roughly the same amount ($200) to acquire an enterprise customer as it does a starter customer, yet the return is nearly 14 times higher.
+- **The starter plan is the least profitable.** While an LTV:CAC ratio of 28.8:1 is still considered healthy in many SaaS contexts (where 3:1 is a common benchmark), it is the lowest across the plans. **The low LTV is driven by the high churn rate previously identified (70.51%)**. CloudTask Pro is essentially paying the same CAC to acquire a customer who is 70% likely to leave before they reach a high lifetime value.
+- Interestingly, **CloudTask Pro’s acquisition costs are remarkably stable across all plans**, hovering around the $200 mark. This suggests the marketing and sales funnel is highly efficient at getting customers, regardless of the plan. The profitability gap is purely a retention and expansion issue, not an acquisition issue.
+
+<img width="1604" height="1067" alt="image" src="https://github.com/user-attachments/assets/70f274e0-3aff-4e21-96d3-c99d1b16c9e0" />
+
