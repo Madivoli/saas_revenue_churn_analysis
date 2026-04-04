@@ -85,12 +85,38 @@ This section of the analysis highlights the relationship between **customer acqu
 
 <img width="1350" height="192" alt="image" src="https://github.com/user-attachments/assets/62933201-037e-4ebc-9ab0-13006eaf0641" />
 
+#
 **The Profitability Landscape (LTV vs. CAC)**
 
-The analysis reveals a significant disparity in customer acquisition efficiency across plans. While the cost to acquire a customer (CAC) is remarkably consistent across the board (averaging $200), the Lifetime Value (LTV) varies by a factor of 14 between the lowest and highest tiers.
+The analysis reveals **a significant disparity in customer acquisition efficiency across plans**. While the cost to acquire a customer (CAC) is remarkably consistent across the board (averaging $200), **the Lifetime Value (LTV) varies by a factor of 14 between the lowest and highest tiers**.
 - **The enterprise plan is the most profitable tier.** With an LTV:CAC ratio of 412:1, for every $1 spent on acquisition, CloudTask Pro generates over $400 in lifetime value. What is particularly striking is that it costs roughly the same amount ($200) to acquire an enterprise customer as it does a starter customer, yet the return is nearly 14 times higher.
 - **The starter plan is the least profitable.** While an LTV:CAC ratio of 28.8:1 is still considered healthy in many SaaS contexts (where 3:1 is a common benchmark), it is the lowest across the plans. **The low LTV is driven by the high churn rate previously identified (70.51%)**. CloudTask Pro is essentially paying the same CAC to acquire a customer who is 70% likely to leave before they reach a high lifetime value.
 - Interestingly, **CloudTask Pro’s acquisition costs are remarkably stable across all plans**, hovering around the $200 mark. This suggests the marketing and sales funnel is highly efficient at getting customers, regardless of the plan. The profitability gap is purely a retention and expansion issue, not an acquisition issue.
 
+**Strategic Recommendation:**
+•	Since the CAC is almost identical across all plans, the ROI on marketing spend for the enterprise is exponentially higher. CloudTask Pro should consider **shifting a larger portion of the acquisition budget toward high-intent business leads.**
+•	The company needs to **increase the LTV of the starter plan by addressing churn.** If it can slightly lower that 70% churn rate, the profitability of the largest customer segment (217 users) will improve significantly.
+- To protect the $200 acquisition investment, **the starter plan should move toward a 6-month minimum commitment or an annual-only billing model.** This ensures the company recoups the CAC before a customer can churn.
+
 <img width="1604" height="1067" alt="image" src="https://github.com/user-attachments/assets/70f274e0-3aff-4e21-96d3-c99d1b16c9e0" />
 
+**Industry-Specific High Performers**
+- **Retail Enterprise:** This is **the most profitable segment in the entire company**, with an average LTV of $113,731 and a record-high LTV:CAC ratio of 643.67.
+- **Education & Manufacturing:** These sectors follow closely, with enterprise LTVs of $98,385 and $88,957, respectively, confirming that the CloudTask Pro platform's value proposition is strongest in operationally complex industries.
+
+**Strategic Recommendations:**
+- **The company should reallocate acquisition budget.** For instance, shift 20-30% of the marketing budget away from the starter lead generation and toward account-based marketing (ABM) targeting retail and manufacturing enterprise prospects.
+- **Use Power BI to flag business plan customers who reach 80% feature usage.** These customers should be automatically routed to the sales team for an enterprise upgrade conversation, as they are the most likely to see the value in a higher-tier transition.
+
+
+#
+**At-Risk Indicators**
+
+The relationship between feature usage, sentiment (NPS), and churn is the most critical driver of retention for CloudTask Pro:
+- The data reveals a critical adoption threshold at 50% feature usage: 
+    - **Below 50%:** The average churn rate is staggering — ranging from 55.9% (for 40-50% usage) up to 100% (for those below 10% usage).
+    - **Above 50%:** The churn rate drops to 0%. This suggests that once a customer adopts more than half of our core features, they become fully "sticky" and realize the product's full value.
+- There is a direct correlation between usage and satisfaction:
+    - **Detractors (470 customers):** Have an average usage of only 37.28%. Their high churn (66.6%) is not just about price; it’s about a lack of engagement with the product.
+    - **Promoters (61 customers):** Reach an average usage of 54.90%. This small jump in usage (from 37% to 55%) is the difference between a high-risk customer and a loyal advocate.
+- While 350 customers have already been categorized as low-usage/at-risk, there are currently 132 active customers (those who have not yet churned) who are below the 50% usage threshold and are in the immediate "danger zone."
