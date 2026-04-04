@@ -120,3 +120,7 @@ The relationship between feature usage, sentiment (NPS), and churn is the most c
     - **Detractors (470 customers):** Have an average usage of only 37.28%. Their high churn (66.6%) is not just about price; it’s about a lack of engagement with the product.
     - **Promoters (61 customers):** Reach an average usage of 54.90%. This small jump in usage (from 37% to 55%) is the difference between a high-risk customer and a loyal advocate.
 - While 350 customers have already been categorized as low-usage/at-risk, there are currently 132 active customers (those who have not yet churned) who are below the 50% usage threshold and are in the immediate "danger zone."
+
+**Business Implications:**
+- The high number of low-usage customers (350) suggests that **our initial onboarding process is failing to move users past the "learning curve" and into the "value zone" (above 50% usage)**.
+- With 470 detractors, **there is a massive risk of negative word-of-mouth.** This doesn't just impact current retention; it makes future customer acquisition more expensive as potential leads encounter negative reviews.
