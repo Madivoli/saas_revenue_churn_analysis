@@ -5,7 +5,8 @@
 
 CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, the board has raised concerns about a high churn rate. The CFO wants to understand the monthly churn trends, which customer segments are most at risk, and what the company’s unit economics look like (MRR per customer, customer acquisition cost vs. lifetime value). 
 
-# Management Tasks
+**Management Tasks**
+
 Management requests an analysis and a report to answer the following questions:
 1.	What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
 2.	Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?
@@ -17,14 +18,14 @@ Management requests an analysis and a report to answer the following questions:
 ##
 <img width="1009" height="566" alt="image" src="https://github.com/user-attachments/assets/7b618b70-03d1-4d9d-b77c-eee8a8198c90" />
 
-**Overall Churn Rate:**
+**THE OVERALL CHURN RATE:**
 - The **overall churn rate is 52.17 percent**. Since 2022, CloudTask Pro has lost one customer for every two it obtains. 
 - Out of 600 clients, 313 have departed. This means the company is working twice as hard to stay in the same spot; for every new customer it acquires, it loses an existing one.
 - The following segments are high risk:
   - **Monthly billing, 60.51%.** Customers who pay month-to-month are significantly more likely to leave than those committed to longer billing cycles.
   - **Starter plan, 70.51%.** Seven out of ten people who sign up for the starter plan don't stay.
-  - **Referral, 61.29%.** Customers referred to the company by friends/partners/colleagues are leaving at a significant rate (61.29%). Referrals are typically the most loyal, but, in this case, they are nearly as likely to leave as anyone else.
-  - **Enterprise, 63.16%.** This is the most alarming discovery. Typically, large "enterprise" clients are the most reliable. Losing more than 60% of them shows that the company's product may not suit the demands of this segment, or that it is not providing adequate support once they join up.
+  - **Referral, 61.29%.** Customers referred by friends/partners/colleagues are leaving at a significant rate (61.29%). Referrals are typically the most loyal, but, in this case, they are nearly as likely to leave as anyone else.
+  - **Enterprise, 63.16%.** This is the most alarming discovery. Typically, large "enterprise" clients are the most reliable. Losing more than 60% of them suggests that the company's product may not meet this segment's needs, or that it is not providing adequate support once they join.
 
 **Business Implications:**
 - CloudTask Pro is spending money to acquire customers (CAC) who don't stay long enough to pay for the cost of getting them. The company is effectively **"burning" its acquisition budget**. For instance, the company spent 36.48% of the marketing budget to acquire customers on the starter plan, yet 70.51% of them churned. 
@@ -55,8 +56,22 @@ Management requests an analysis and a report to answer the following questions:
 
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/7088d9e9-fdc9-49c4-b092-97d657b77dfa" />
 
+**INVESTIGATING CHURN REASONS**
+- The **first three influencers are nearly equally in weight (around 51%)**, suggesting that they are **the primary/key reasons for churning**, hence, revenue loss for CloudTask Pro.
+- Customers are facing **external economic pressure**, leading to budget cuts (51.67%) and company closures (51.29%). This implies **a highly volatile customer base**. Customers are not necessarily leaving CloudTask Pro because they don’t like the products; they’re leaving because they are fighting for their own survival. 
+- **There is a price-value gap**. The data indicates that **51.58% of customers are leaving because the prices are too high.** This implies that for the majority of churned users, the ROI isn’t enough to justify the cost relative to the value they receive.
+- While the other influencers are reasons for leaving, **the starter plan is a structural influencer.** This implies that the plan itself is a risk factor, likely because **it attracts ‘trial’ customers or lacks the features that make a customer want to stay longer.**
 
 
+**Business Implications:**
+- Because budget cuts and company closures are top drivers, **CloudTask Pro’s revenue is currently "pro-cyclical."** If the general economy dips, our churn will spike instantly because our customers view our service as a luxury, not a necessity.
+- The "price too high" sentiment implies **we may have hit a pricing ceiling for our current feature set.** If we raise prices further without adding massive value, churn will likely accelerate.
+- The 28.32% influence from the starter plan implies** we are spending marketing dollars to bring people into a plan that is effectively a "waiting room" for churn.**
+
+**Strategic Recommendations:**
+- **We need to address budget cuts with flexible downgrades.** We offer to move them to a low-cost maintenance plan ($10/month) that saves their data but restricts access. This keeps the relationship alive until their budget returns.
+- **We need to counter “price too high” with value-based selling.** We should implement an in-app ROI dashboard to show the customer exactly how many hours or dollars CloudTask Pro has saved them. If they can see they saved $5,000 in labor, a $500 invoice is much easier to justify.
+- **Since "company closed" is a top driver, we can predict this churn before it happens.** We need to track seat activity. If a company suddenly drops from 20 active users to 5, or if login frequency falls off a cliff, they are likely facing internal struggles. The company needs to trigger an automated "success outreach" from the team to offer support or a temporary discount.
 
 
 ##
@@ -64,15 +79,15 @@ Management requests an analysis and a report to answer the following questions:
 <img width="1009" height="572" alt="image" src="https://github.com/user-attachments/assets/1be26f4c-5332-43cc-8251-fdf4c92ca210" />
 
 
-**Plan with the Highest Churn Rate**
+**PLAN WITH THE HIGHEST CHURN RATE**
 - The **starter plan has the highest churn rate at 70.51%**. This is a significant outlier compared to the others, followed by the professional plan at 47.98%. The enterprise plan is the most stable, with only a 22.00% churn rate.
 
-**Impact of Billing Cycle on Retention**
-- Yes, the billing cycle significantly impacts retention across almost all plans.
+**IMPACT OF BILLING CYCLE ON RETENTION**
+- Yes, **the billing cycle significantly impacts retention across almost all plans**.
   - **Monthly billing:** Overall churn rate is 60.51%.
   - **Annual billing:** Overall churn rate is 40.32%.
-- By getting a customer to commit to an annual plan, the company reduces the likelihood of them leaving by roughly **20 percentage points**.
-- The enterprise plan is unique because it **maintains a stable churn rate (22%)** regardless of whether the customer is on a monthly or annual billing cycle. This suggests Enterprise customers make long-term decisions before they even sign up.
+- By getting a customer to commit to an annual plan, **the company reduces the likelihood of them leaving by roughly 20 percentage points**.
+- The enterprise plan is unique because it **maintains a stable churn rate (22%)regardless of whether the customer is on a monthly or annual billing cycle**. This suggests Enterprise customers make long-term decisions before they even sign up.
 
 **Strategic Recommendation:**
 - Since the starter plan with monthly billing is the company’s highest-risk area (76.87% churn), management should **consider removing the monthly option for the starter tier entirely** or **offering a very aggressive discount to push those users into an annual starter plan** to "force" higher retention.
@@ -85,7 +100,6 @@ This section of the analysis highlights the relationship between **customer acqu
 
 <img width="1350" height="192" alt="image" src="https://github.com/user-attachments/assets/62933201-037e-4ebc-9ab0-13006eaf0641" />
 
-#
 **The Profitability Landscape (LTV vs. CAC)**
 
 The analysis reveals **a significant disparity in customer acquisition efficiency across plans**. While the cost to acquire a customer (CAC) is remarkably consistent across the board (averaging $200), **the Lifetime Value (LTV) varies by a factor of 14 between the lowest and highest tiers**.
@@ -109,7 +123,7 @@ The analysis reveals **a significant disparity in customer acquisition efficienc
 - **Use Power BI to flag business plan customers who reach 80% feature usage.** These customers should be automatically routed to the sales team for an enterprise upgrade conversation, as they are the most likely to see the value in a higher-tier transition.
 
 
-#
+##
 **At-Risk Indicators**
 
 The relationship between feature usage, sentiment (NPS), and churn is the most critical driver of retention for CloudTask Pro:
@@ -124,3 +138,8 @@ The relationship between feature usage, sentiment (NPS), and churn is the most c
 **Business Implications:**
 - The high number of low-usage customers (350) suggests that **our initial onboarding process is failing to move users past the "learning curve" and into the "value zone" (above 50% usage)**.
 - With 470 detractors, **there is a massive risk of negative word-of-mouth.** This doesn't just impact current retention; it makes future customer acquisition more expensive as potential leads encounter negative reviews.
+
+
+
+#
+**REVENUE TRENDS**
