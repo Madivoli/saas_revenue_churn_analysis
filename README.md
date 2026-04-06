@@ -29,8 +29,8 @@ Management requests an analysis and a report to answer the following questions:
 
 **Business Implications:**
 - CloudTask Pro is spending money to acquire customers (CAC) who don't stay long enough to pay for the cost of getting them. The company is effectively **"burning" its acquisition budget**. For instance, the company spent 36.48% of the marketing budget to acquire customers on the starter plan, yet 70.51% of them churned. 
-- With such high churn in the monthly and starter tiers, the **monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will still be there next month.
-- Losing an enterprise customer is much more expensive than losing a starter customer. The high enterprise churn rate represents a massive **loss of "potential lifetime value."**
+- With such high churn in the Monthly and Starter tiers, the **monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will still be there next month.
+- Losing an Enterprise customer is much more expensive than losing a Starter customer. The high Enterprise churn rate represents a massive **loss of "potential lifetime value."**
 - A 61% churn rate for referrals suggests that even when someone is "convinced" to join by a friend, the product experience isn't keeping them there. This can **damage the company’s reputation through word-of-mouth** over time.
 
 **Strategic Recommendations:**
