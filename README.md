@@ -20,8 +20,9 @@ Management requests an analysis and a report to answer the following questions:
 <img width="1006" height="565" alt="image" src="https://github.com/user-attachments/assets/42957f6e-6e8e-4a6d-9fe3-ba646426bce7" />
 
 **THE OVERALL CHURN RATE:**
-- The **overall churn rate is 52.17 percent**. Since 2022, CloudTask Pro has lost one customer for every two it obtains. 
-- Out of 600 clients, 313 have departed. This means the company is working twice as hard to stay in the same spot; for every new customer it acquires, it loses an existing one.
+
+- The **overall churn rate is 52.17 percent**.  
+- Out of 600 clients, 313 have departed. This means CloudTask Pro is working twice as hard to stay in the same spot; for every new customer it acquires, it loses an existing one.
 - The following segments are high risk:
   - **Monthly billing, 60.51%:** Customers who pay month-to-month are significantly more likely to leave than those committed to longer billing cycles.
   - **Starter plan, 70.51%:** Seven out of ten people who sign up for the Starter plan don't stay.
@@ -29,16 +30,37 @@ Management requests an analysis and a report to answer the following questions:
   - **Enterprise, 63.16%:** This is the most alarming discovery. Typically, large "Enterprise" clients are the most reliable. Losing more than 60% of them suggests that the company's product may not meet this segment's needs, or that it is not providing adequate support once they join.
 
 **Business Implications:**
-- CloudTask Pro is spending money to acquire customers (CAC) who don't stay long enough to pay for the cost of getting them. The company is effectively **"burning" its acquisition budget**. For instance, the company spent 36.48% of the marketing budget to acquire customers on the starter plan, yet 70.51% of them churned. 
-- With such high churn in the Monthly and Starter tiers, the **monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will still be there next month.
-- Losing an Enterprise customer is much more expensive than losing a Starter customer. The high Enterprise churn rate represents a massive **loss of "potential lifetime value."**
-- A 61% churn rate for referrals suggests that even when someone is "convinced" to join by a friend, the product experience isn't keeping them there. This can **damage the company’s reputation through word-of-mouth** over time.
+- CloudTask Pro is spending money to acquire customers (CAC) who don't stay long enough to pay for the cost of getting them. The company is effectively **"burning" its acquisition budget**. For instance, the company spent 36.48% of the marketing budget to acquire customers on the Starter plan, yet 70.51% of them churned. 
+- With such high churn in the Monthly and Starter tiers, **the monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will still be there next month.
+- Losing an Enterprise customer is much more expensive than losing a Starter customer. The high Enterprise churn rate represents a **massive loss of potential lifetime value.**
+- A 61% churn rate for Referrals suggests that even when someone is "convinced" to join by a friend, the product experience isn't keeping them there. **This can damage the company’s reputation through word-of-mouth over time**.
 
 **Strategic Recommendations:**
-- To fix the 60.51% monthly churn, CloudTask Pro should **offer a discount** (e.g., 2 months free) for customers who switch to annual billing. This will lock in revenue and give the customer more time to integrate the product into their daily workflow.
-- Since CloudTask Pro is losing 63.16% of its biggest revenue earner, it needs a **dedicated customer success team.** For every enterprise client, a staff member should be responsible for "onboarding" them and checking in monthly to ensure they are seeing the value of the services and products.
-- With a 70% failure rate at the entry level, the company needs to **look at its product or service offerings**. For instance, is the product too difficult to set up? CloudTask Pro should consider a "welcome call" or a simplified "quick-start" guide specifically for Starter users to ensure they reach their first "win" with the cloud software quickly.
+- To fix the 60.51% monthly churn, CloudTask Pro should **offer a discount(e.g., 2 months free) for customers who switch to annual billing**. This will lock in revenue and give the customer more time to integrate the product into their daily workflow.
+- Since CloudTask Pro is losing 63.16% of its biggest revenue earner, it needs a **dedicated customer success team.** For every Enterprise client, a staff member should be responsible for "onboarding" them and checking in monthly to ensure they are seeing the value of the services and products.
+- With a 70% failure rate at the entry level, the company needs to **look at its product or service offerings**. For instance, is the product too difficult to set up? CloudTask Pro should consider offering a "welcome call" or a simplified "quick-start" guide specifically for new users to help them reach their first "win" with the cloud software quickly.
 - CloudTask Pro should look at who is referring these customers. The company may be incentivizing the "wrong" kind of sign-ups. The company should **consider changing the referral bonus so it is paid only after the new customer has stayed for at least 3 or 6 months.**
+
+##
+##
+
+
+<img width="1009" height="566" alt="image" src="https://github.com/user-attachments/assets/60b3054a-cb92-4d69-9ea1-55777ec718e7" />
+
+**INVESTIGATING CHURN REASONS** REWORK
+
+Half of the churn is driven by **the economy (budget cuts/closure)**, but the other half is **entirely within the company’s control to fix (price and plan structure).** By adjusting how it packages the Starter plan and how it proves its value, the company can "insulate" itself against these external shocks.
+
+While **'Budget Cuts'** is the #1 reason for churn overall, **it is largely a symptom of the Small-sized customer base.** In contrast, the Enterprise churn is driven by **Product Gaps (Missing Features)**.CloudTask Pro is losing small customers to the economy and large customers to its competitors' feature sets.
+
+The top 3 reasons for churning and how they differ:
+- **Budget Cuts:** Heavily impacts micro and small-sized companies.
+- **Price Too High:** Primarily seen in the Starter and Professional plans.
+- **Company Closed:** Almost exclusively affects the small-sized company category
+  
+The reasons differ significantly by Plan or Size:
+- **Starter Plan and Small Companies:** Churn is dominated by price and budget. **These customers are price-sensitive.** If they save $50 elsewhere, they will leave the company.
+- **Enterprise Plan and Large Companies:** Churn here is rarely about price. **It is more likely driven by Missing Features or strategic shifts.** Even though “company closed” is a top overall reason, it seldom happens to the Enterprise clients.
 
 
 ##
@@ -61,7 +83,7 @@ Management requests an analysis and a report to answer the following questions:
 **INVESTIGATING CHURN REASONS**
 - The **first three influencers are nearly equally in weight (around 51%)**, suggesting that they are **the primary/key reasons for churning**, hence, revenue loss for CloudTask Pro.
 - Customers are facing **external economic pressure**, leading to budget cuts (51.67%) and company closures (51.29%). This implies **a highly volatile customer base**. Customers are not necessarily leaving CloudTask Pro because they don’t like the products; they’re leaving because they are fighting for their own survival. 
-- **There is a price-value gap**. The data indicates that **51.58% of customers are leaving because the prices are too high.** This implies that for the majority of churned users, the ROI isn’t enough to justify the cost relative to the value they receive.
+- **There is a price-value gap**. The data indicate that 51.58% of customers are leaving because prices are too high.** This implies that for the majority of churned users, the ROI isn’t enough to justify the cost relative to the value they receive.
 - While the other influencers are reasons for leaving, **the starter plan is a structural influencer.** This implies that the plan itself is a risk factor, likely because **it attracts ‘trial’ customers or lacks the features that make a customer want to stay longer.**
 
 
@@ -94,19 +116,7 @@ Management requests an analysis and a report to answer the following questions:
 **Strategic Recommendation:**
 - Since the starter plan with monthly billing is the company’s highest-risk area (76.87% churn), management should **consider removing the monthly option for the starter tier entirely** or **offering a very aggressive discount to push those users into an annual starter plan** to "force" higher retention.
 
-##
-##
 
-
-<img width="1013" height="568" alt="image" src="https://github.com/user-attachments/assets/54abca73-bab5-4b17-8f1d-dedbbd49191a" />
-
-
-ANALYSIS OF THE TOP 3 CHURN REASONS
-
-The top 3 reasons for churning and how they differ:
-•	Budget Cuts: Heavily impacts micro and small-sized companies.
-•	Price Too High: Primarily seen in the starter and professional plans.
-•	Company Closed: Almost exclusively affects the small-sized company category.
 
 ##
 ##
