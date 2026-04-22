@@ -1,9 +1,14 @@
-# CLOUDTASK PRO REVENUE & CHURN ANALYSIS
+**SAAS REVENUE AND CHURN OPTIMIZATION AUDIT**
+
 ![26704](https://github.com/user-attachments/assets/4b448caf-d29b-4322-b669-5c319d79f6df)
+
+<br>
 
 **INTRODUCTION**
 
-CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, the board has raised concerns about a high churn rate. The CFO wants to understand the monthly churn trends, which customer segments are most at risk, and what the company’s unit economics look like (MRR per customer, customer acquisition cost vs. lifetime value). 
+CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, **the board has raised concerns about a high churn rate.** The CFO wants to understand **monthly churn trends**, which **customer segments are most at risk**, and the company’s unit economics (**MRR per customer**, **customer acquisition cost vs. lifetime value**). 
+
+<br>
 
 **MANAGEMENT TASKS**
 
@@ -22,6 +27,8 @@ Management requests an analysis and a report to answer the following questions:
 
 <img width="1006" height="565" alt="image" src="https://github.com/user-attachments/assets/42957f6e-6e8e-4a6d-9fe3-ba646426bce7" />
 
+<br>
+
 **Key Insights:**
 - The **overall churn rate is 52.17 percent**.  
 - Out of 600 clients, 313 have departed. This means CloudTask Pro is working twice as hard to stay in the same spot; for every new customer it acquires, it loses an existing one.
@@ -31,11 +38,15 @@ Management requests an analysis and a report to answer the following questions:
   - **Referral: 61.29%.** Customers referred by friends/partners/colleagues are leaving at a significant rate (61.29%). Referrals are typically the most loyal, but, in this case, they are nearly as likely to leave as anyone else.
   - **Enterprise: 63.16%.** This is the most alarming discovery. Typically, large "Enterprise" clients are the most reliable. Losing more than 60% of them suggests that the company's product may not meet this segment's needs, or that it is not providing adequate support once they join.
 
+<br>
+
 **Business Implications:**
 - CloudTask Pro is spending money to acquire customers (CAC) who don't stay long enough to pay for the cost of getting them. The company is effectively **"burning" its acquisition budget**. For instance, the company spent 36.48% of the marketing budget to acquire customers on the Starter plan, yet 70.51% of them churned. 
-- With such high churn in the Monthly and Starter tiers, **the monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will still be there next month.
+- With such high churn in the Monthly and Starter tiers, **the monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will remain next month.
 - Losing an Enterprise customer is much more expensive than losing a Starter customer. The high Enterprise churn rate represents a **massive loss of potential lifetime value.**
 - A 61% churn rate for Referrals suggests that even when someone is "convinced" to join by a friend, the product experience isn't keeping them there. **This can damage the company’s reputation through word-of-mouth over time**.
+
+<br>
 
 **Strategic Recommendations:**
 - To fix the 60.51% monthly churn, CloudTask Pro should **offer a discount(e.g., 2 months free) for customers who switch to annual billing**. This will lock in revenue and give the customer more time to integrate the product into their daily workflow.
@@ -50,20 +61,29 @@ Management requests an analysis and a report to answer the following questions:
 
 <img width="1009" height="566" alt="image" src="https://github.com/user-attachments/assets/60b3054a-cb92-4d69-9ea1-55777ec718e7" />
 
+<br>
 
 Half of the churn is driven by **the economy (budget cuts/closure)**, but the other half is **entirely within the company’s control to fix (price and plan structure).** By adjusting how it packages the Starter plan and how it proves its value, CloudTask Pro can "insulate" itself against these external shocks.
 
+<br>
+
 While **'budget cuts'** is the #1 reason for churn overall, **it is largely a symptom of the small-sized customer base.** In contrast, the Enterprise churn is driven by **product gaps (missing features)**.CloudTask Pro is losing small customers to the economy and large customers to its competitors' feature sets.
+
+<br>
 
 The top 3 reasons for churning and how they differ:
 - **Budget Cuts:** Heavily impacts micro and small-sized companies.
 - **Price Too High:** Primarily seen in the Starter and Professional plans.
 - **Company Closed:** Almost exclusively affects the small-sized company category
-  
+
+<br>
+
 The reasons differ significantly by Plan or Size:
 - For the Starter and Professional plans, **churn is overwhelmingly driven by "Budget Cuts" and "Price Too High"** (representing 35-38% of their total churn). This indicates that these segments are **price-sensitive, view the product as a discretionary expense, and are the first to cut it during economic tightening.** If they save $50 elsewhere, they will leave the company.
 - Enterprise plan churn is significantly lower overall (22%), but when it does occur, **it is driven by "No Longer Needed" and "Company Closed" (27.3% each)**. This implies that Enterprise **churn is less about the product's price or features and more about structural changes within the client's own organisation**.
 - Small-sized companies show a unique trend where "**no longer needed" is the top reason (18.3%)**, indicating **they may be using the product for one-off projects rather than as a permanent part of their workflow**.
+
+<br>
 
 To optimize retention, the strategy should be two-fold:
 1.	For Starter/Professional: **Implement budget-save offers**.
@@ -75,6 +95,7 @@ To optimize retention, the strategy should be two-fold:
 
 <img width="997" height="570" alt="image" src="https://github.com/user-attachments/assets/23a05e0b-4ca5-45ce-b42e-d8db22b18c02" />
 
+<br>
 
 **Key Insights:**
 - The **first three influencers are nearly equally in weight (around 51%)**, suggesting that they are **the primary/key reasons for churning**, hence, revenue loss for CloudTask Pro.
@@ -82,11 +103,14 @@ To optimize retention, the strategy should be two-fold:
 - **There is a price-value gap**. The data indicate that 51.58% of customers are leaving because prices are too high. This implies that **for the majority of churned users, the ROI isn’t enough to justify the cost relative to the value they receive.**
 - While the other influencers are reasons for leaving, **the Starter plan is a structural influencer.** This implies that the plan itself is a risk factor, likely because **it attracts ‘trial’ customers or lacks the features that make a customer want to stay longer.**
 
+<br>
 
 **Business Implications:**
 - Because budget cuts and company closures are top drivers, **CloudTask Pro’s revenue is currently "pro-cyclical."** If the general economy dips, the churn will spike instantly because customers view the service as a luxury, not a necessity.
 - The "price too high" sentiment implies **the company may have hit a pricing ceiling for the current feature set.** If CloudTask Pro raises prices further without adding massive value, churn will likely accelerate.
 - The 28.32% influence from the Starter plan implies **CloudTask Pro is spending marketing dollars to bring people into a plan that is effectively a "waiting room" for churn.**
+
+<br>
 
 **Strategic Recommendations:**
 - **The company needs to address budget cuts with flexible downgrades.** It can offer to move customers to a low-cost maintenance plan ($10/month) that saves their data but restricts access. This keeps the relationship alive until their budget returns.
@@ -100,6 +124,7 @@ To optimize retention, the strategy should be two-fold:
 
 <img width="1003" height="573" alt="image" src="https://github.com/user-attachments/assets/2ace40be-bc49-45a0-8941-6307f349a5c0" />
 
+<br>
 
 **Key Insights:**
 - The business faces **a cyclical retention challenge** in Q1 (February – April) and mid-summer (July – August). These periods represent recurring windows of high risk.
@@ -107,20 +132,25 @@ To optimize retention, the strategy should be two-fold:
 - The final four months of the year (September–December) **show a consistent "cooling" of churn**, suggesting that year-end budget cycles or stability in those months offer a natural buffer for the company.
 - The link between "missing features" and the April churn spike indicates that **the company’s research and development roadmap is currently trailing behind the market's expectations for a product with better/upgraded features.**
 
+<br>
+
 **Business Implications:**
 - High volatility in monthly churn rates **makes it difficult for the CFO to accurately forecast revenue or plan large capital expenditures (CapEx)** in the first half of the year.
 - High churn in "high-risk" months **forces the sales and marketing teams to focus on "replacing" lost revenue rather than "adding" to the total, effectively slowing down our net growth speed.**
+
+<br>
 
 **Strategic Recommendations:**
 - CloudTask Pro should **align the product roadmap to launch major feature updates in January and February**. By delivering value early in the year, the company can pre-emptively address the "missing features" complaints that typically lead to April exits.
 - For any customer whose renewal or signup falls in the high-risk months (Feb, March, July), CloudTask Pro should **offer a 15–20% discount to move from monthly to annual billing**. This bypasses the monthly decision-cycle during high-risk seasons.
 
-##
+---
+
 **YOY% CHURN RATE ANALYSIS**
-- The Year-over-Year (YoY) analysis indicates **a significant improvement in retention efficiency**. In 2025, the monthly churn rate decreased by 51.61% compared to 2024, continuing a downward trend in the speed at which customers are leaving the company:
-  - 2023 (-18.33%): churn improved (dropped) by 18.33% compared to 2022.
-  - 2024 (-21.28%): churn slightly dropped by 2.95 percentage points compared to the previous year
-  - 2025 (-51.61%): churn improved significantly compared to 2024, by 30.33 percentage points.
+The Year-over-Year (YoY) analysis indicates **a significant improvement in retention efficiency**. In 2025, the monthly churn rate decreased by 51.61% compared to 2024, continuing a downward trend in the speed at which customers are leaving the company:
+- 2023 (-18.33%): churn improved (dropped) by 18.33% compared to 2022.
+- 2024 (-21.28%): churn slightly dropped by 2.95 percentage points compared to the previous year
+- 2025 (-51.61%): churn improved significantly compared to 2024, by 30.33 percentage points.
 - The negative percentages represent a year-over-year reduction in churn (improvement).
 - **Even though the rate is improving (the negative YoY), the total churn (52%) remains high.** The company is "slowing the bleeding," but the problem persists.
 
@@ -130,18 +160,26 @@ To optimize retention, the strategy should be two-fold:
 
 <img width="1010" height="569" alt="image" src="https://github.com/user-attachments/assets/632165f6-6c28-4720-bc05-9007ed1db08f" />
 
+<br>
 
-- The **Starter plan has the highest churn rate at 70.51%**. This is a significant outlier compared to the others, followed by the professional plan at 47.98%. The enterprise plan is the most stable, with only a 22.00% churn rate.
+The **Starter plan has the highest churn rate at 70.51%**. This is a significant outlier compared to the others, followed by the Professional plan at 47.98%. The Enterprise plan is the most stable, with only a 22.00% churn rate.
+
+<br>
 
 **IMPACT OF BILLING CYCLE ON RETENTION**
-- The **billing cycle significantly impacts retention across almost all plans**:
-  - **Monthly billing:** Overall churn rate is 60.51%.
-  - **Annual billing:** Overall churn rate is 40.32%.
-- By getting a customer to commit to an annual plan, **the company reduces the likelihood of them leaving by roughly 20 percentage points**.
+
+The **billing cycle significantly impacts retention across almost all plans**:
+- **Monthly billing:** Overall churn rate is 60.51%.
+- **Annual billing:** Overall churn rate is 40.32%.
+
+**Impact:** By getting a customer to commit to an annual plan, **the company reduces the likelihood of them leaving by roughly 20 percentage points**.
 - The Enterprise plan is unique because it **maintains a stable churn rate (22%)regardless of whether the customer is on a monthly or annual billing cycle**. This suggests Enterprise customers make long-term decisions before they even sign up.
 
+<br>
+
 **Strategic Recommendation:**
-- Since the Starter plan with monthly billing is the company’s highest-risk area (76.87% churn), management should **consider removing the monthly option for the Starter tier entirely** or **offering a very aggressive discount to push those users into an annual Starter plan** to "force" higher retention.
+
+Since the Starter plan with monthly billing is the company’s highest-risk area (76.87% churn), management should **consider removing the monthly option for the Starter tier entirely** or **offering a very aggressive discount to push those users into an annual Starter plan** to "force" higher retention.
 
 
 
@@ -151,10 +189,11 @@ To optimize retention, the strategy should be two-fold:
 
 <img width="1015" height="571" alt="image" src="https://github.com/user-attachments/assets/83f12192-881c-4477-9896-f61f06172592" />
 
-
+<br>
 
 The analysis **reveals a stark contrast in the profitability across the different tiers** of CloudTask Pro. By comparing the average Customer Lifetime Value (CLV/LTV) against the Customer Acquisition Cost (CAC), we can see exactly where the company’s most efficient growth is coming from.
 
+<br>
 
 **The Profitability Landscape (LTV vs. CAC)**
 
@@ -162,6 +201,8 @@ The analysis reveals **a significant disparity in customer acquisition efficienc
 - **The Enterprise plan is the most profitable tier.** With an LTV:CAC ratio of 412:1, for every $1 spent on acquisition, CloudTask Pro generates over $400 in lifetime value. What is particularly striking is that it costs roughly the same amount ($200) to acquire an Enterprise customer as it does a Starter customer, yet the return is nearly 14 times higher.
 - **The Starter plan is the least profitable.** While an LTV:CAC ratio of 28.8:1 is still considered healthy in many SaaS contexts (where 3:1 is a common benchmark), it is the lowest across the plans. **The low LTV is driven by the high churn rate previously identified (70.51%)**. CloudTask Pro is essentially paying the same CAC to acquire a customer who is 70% likely to leave before they reach a high lifetime value.
 - Interestingly, **CloudTask Pro’s acquisition costs are remarkably stable across all plans**, hovering around the $200 mark. This suggests the marketing and sales funnel is highly efficient at getting customers, regardless of the plan. The profitability gap is purely a retention and expansion issue, not an acquisition issue.
+
+<br>
 
 **Strategic Recommendation:**
 - Since the CAC is almost identical across all plans, the ROI on marketing spend for the Enterprise is exponentially higher. CloudTask Pro should consider **shifting a larger portion of the acquisition budget toward high-intent business leads.**
@@ -172,6 +213,8 @@ The analysis reveals **a significant disparity in customer acquisition efficienc
 **INDUSTRY-SPECIFIC HIGH PERFORMERS**
 - **Retail Enterprise:** This is **the most profitable segment in the entire company**, with an average LTV of $113,731 and a record-high LTV:CAC ratio of 643.67.
 - **Education & Manufacturing:** These sectors follow closely, with enterprise LTVs of $98,385 and $88,957, respectively, confirming that the CloudTask Pro platform's value proposition is strongest in operationally complex industries.
+
+<br>
 
 **Strategic Recommendations:**
 - **The company should reallocate acquisition budget.** For instance, shift 20-30% of the marketing budget away from the Starter lead generation and toward account-based marketing (ABM) targeting Retail and Manufacturing Enterprise prospects.
@@ -184,15 +227,21 @@ The analysis reveals **a significant disparity in customer acquisition efficienc
 
 <img width="1006" height="567" alt="image" src="https://github.com/user-attachments/assets/b18248bb-375b-4b1e-8b5a-07613b575789" />
 
+<br>
 
 The relationship between feature usage, sentiment (NPS), and churn is the most critical driver of retention for CloudTask Pro:
 - The data reveals a critical adoption threshold at 50% feature usage: 
     - **Below 50%:** The average churn rate is staggering — ranging from 55.9% (for 40-50% usage) up to 100% (for those below 10% usage).
     - **Above 50%:** The churn rate drops to 0%. This suggests that once a customer adopts more than half of the core features, they become fully "sticky" and realize the product's full value.
+
+<br>
+
 - There is a direct correlation between usage and satisfaction:
-    - **Detractors (470 customers):** Have an average usage of only 37.28%. Their high churn (66.6%) is not just about price; it’s about a lack of engagement with the product.
+    - **Detractors (470 customers):** Have an average usage of only **37.28%**. Their high churn (66.6%) is not just about price; it’s about a lack of engagement with the product.
     - **Promoters (61 customers):** Reach an average usage of 54.90%. This small jump in usage (from 37% to 55%) is the difference between a high-risk customer and a loyal advocate.
 - While 350 customers have already been categorized as low-usage/at-risk, there are currently 132 active customers (those who have not yet churned) who are below the 50% usage threshold and are in the immediate "danger zone."
+
+<br>
 
 **Business Implications:**
 - The high number of low-usage customers (350) suggests that **CloudTask Pro's initial onboarding process is failing to move users past the "learning curve" and into the "value zone" (above 50% usage)**.
@@ -207,7 +256,7 @@ The relationship between feature usage, sentiment (NPS), and churn is the most c
 
 <img width="1006" height="569" alt="image" src="https://github.com/user-attachments/assets/94d7094e-300c-4f53-b7ff-11e1f596be6c" />
 
-
+<br>
 
 **MRR Trend:**
 
@@ -224,17 +273,21 @@ While CloudTask Pro shows strong peaks in mid-year revenue (July), the current M
 
 <img width="999" height="569" alt="image" src="https://github.com/user-attachments/assets/e44d5ba3-bc21-4880-979b-97c7a3639ca7" />
 
-
+<br>
 
 The NRR analysis reveals exactly what the MRR trend analysis is hiding: **CloudTask Pro is currently running a "leaky bucket" business model.** While the MRR trend showed revenue increasing, we can now see that **the growth is entirely dependent on aggressive new sales, which are barely staying ahead of massive internal losses.** 
 - **There were massive drops in revenue in June ($-33,328) and September ($-37,547).** In those months, the revenue lost from customers leaving (churn) or downgrading (contraction) was significantly higher than any upgrades or expansion from the current customer base.
 - In September, **we had a surge in new business (16.28%), but the -$37k leak from existing customers nearly neutralized the entire sales effort for that month.** This suggests that the surges aren't signs of a healthy, growing market – they are "rescue missions" to keep the total MRR from collapsing.
+
+<br>
 
 **Business Implications:** 
 - CloudTask Pro is spending a lot of money (CAC) to acquire new customers **just to replace the revenue it's losing from the existing ones.** This is an expensive way to grow.
 - The massive drops in Net Existing point to one of two things:
   - **Poor onboarding:** Customers join during a surge month, realize the tool is too complex, and leave 3-4 months later.
   - **Seasonal budget cuts:** Customers are cleaning up their SaaS spend at the end of quarters (June and September are both quarter-ends).
+
+<br>
 
 **Strategic Recommendation:**
 - **The 90-day retention" initiative:** Since we have massive leaks in June and September, **CloudTask Pro should start a success check-in 30 days before these two months.** It should target customers with the lowest feature usage to prevent the cliff.
