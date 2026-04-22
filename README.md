@@ -147,6 +147,7 @@ To optimize retention, the strategy should be two-fold:
 ---
 
 **YOY% CHURN RATE ANALYSIS**
+
 The Year-over-Year (YoY) analysis indicates **a significant improvement in retention efficiency**. In 2025, the monthly churn rate decreased by 51.61% compared to 2024, continuing a downward trend in the speed at which customers are leaving the company:
 - 2023 (-18.33%): churn improved (dropped) by 18.33% compared to 2022.
 - 2024 (-21.28%): churn slightly dropped by 2.95 percentage points compared to the previous year
