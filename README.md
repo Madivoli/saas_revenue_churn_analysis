@@ -1,58 +1,64 @@
-**SAAS REVENUE AND CHURN OPTIMIZATION AUDIT**
+𝗖𝗟𝗢𝗨𝗗 𝗧𝗔𝗦𝗞 𝗣𝗥𝗢 𝗥𝗘𝗩𝗘𝗡𝗨𝗘 𝗔𝗡𝗗 𝗖𝗛𝗨𝗥𝗡 𝗔𝗡𝗔𝗟𝗬𝗦𝗜𝗦 
 
 ![26704](https://github.com/user-attachments/assets/4b448caf-d29b-4322-b669-5c319d79f6df)
 
 <br>
 
-**INTRODUCTION**
+𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻
 
-CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, **the board has raised concerns about a high churn rate.** The CFO wants to understand **monthly churn trends**, which **customer segments are most at risk**, and the company’s unit economics (**MRR per customer**, **customer acquisition cost vs. lifetime value**). 
+CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, 𝘁𝗵𝗲 𝗯𝗼𝗮𝗿𝗱 𝗵𝗮𝘀 𝗿𝗮𝗶𝘀𝗲𝗱 𝗰𝗼𝗻𝗰𝗲𝗿𝗻𝘀 𝗮𝗯𝗼𝘂𝘁 𝗮 𝗵𝗶𝗴𝗵 𝗰𝗵𝘂𝗿𝗻 𝗿𝗮𝘁𝗲. The CFO wants to understand 𝗺𝗼𝗻𝘁𝗵𝗹𝘆 𝗰𝗵𝘂𝗿𝗻 𝘁𝗿𝗲𝗻𝗱𝘀, which 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝘀𝗲𝗴𝗺𝗲𝗻𝘁𝘀 𝗮𝗿𝗲 𝗺𝗼𝘀𝘁 𝗮𝘁 𝗿𝗶𝘀𝗸, and the 𝗰𝗼𝗺𝗽𝗮𝗻𝘆’𝘀 𝘂𝗻𝗶𝘁 𝗲𝗰𝗼𝗻𝗼𝗺𝗶𝗰𝘀 - 𝘔𝘙𝘙 𝘱𝘦𝘳 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳, 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳 𝘢𝘤𝘲𝘶𝘪𝘴𝘪𝘵𝘪𝘰𝘯 𝘤𝘰𝘴𝘵 (𝘊𝘈𝘊), and 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳 𝘭𝘪𝘧𝘦𝘵𝘪𝘮𝘦 𝘷𝘢𝘭𝘶𝘦 (𝘊𝘓𝘝). 
 
 <br>
 
-**MANAGEMENT TASKS**
+𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀
 
-Management requests an analysis and a report to answer the following questions:
-1.	What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
-2.	Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?
-3.	What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?
-4.	Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?
+The CFO requests an analysis and a report to answer the following questions:
+<br>
+1️⃣ What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
+<br>
+2️⃣ Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (Monthly vs. Annual) significantly impact retention?
+<br>
+3️⃣ What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?
+<br>
+4️⃣ Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?
 
 
 ##
 ##
 
 
-**THE OVERALL CHURN RATE**
+𝗔𝗡𝗔𝗟𝗬𝗦𝗜𝗡𝗚 𝗧𝗛𝗘 𝗢𝗩𝗘𝗥𝗔𝗟𝗟 𝗖𝗛𝗨𝗥𝗡 𝗥𝗔𝗧𝗘 𝗔𝗡𝗗 𝗥𝗜𝗦𝗞 𝗦𝗘𝗚𝗠𝗘𝗡𝗧𝗦
 
-<img width="1006" height="565" alt="image" src="https://github.com/user-attachments/assets/42957f6e-6e8e-4a6d-9fe3-ba646426bce7" />
+<img width="1002" height="563" alt="image" src="https://github.com/user-attachments/assets/414024ed-be0c-4862-8118-28263fdc086a" />
 
-<br>
-
-**Key Insights:**
-- The **overall churn rate is 52.17 percent**.  
-- Out of 600 clients, 313 have departed. This means CloudTask Pro is working twice as hard to stay in the same spot; for every new customer it acquires, it loses an existing one.
-- The following segments are high risk:
-  - **Monthly billing: 60.51%.** Customers who pay month-to-month are significantly more likely to leave than those committed to longer billing cycles.
-  - **Starter plan: 70.51%.** Seven out of ten people who sign up for the Starter plan don't stay.
-  - **Referral: 61.29%.** Customers referred by friends/partners/colleagues are leaving at a significant rate (61.29%). Referrals are typically the most loyal, but, in this case, they are nearly as likely to leave as anyone else.
-  - **Enterprise: 63.16%.** This is the most alarming discovery. Typically, large "Enterprise" clients are the most reliable. Losing more than 60% of them suggests that the company's product may not meet this segment's needs, or that it is not providing adequate support once they join.
 
 <br>
 
-**Business Implications:**
-- CloudTask Pro is spending money to acquire customers (CAC) who don't stay long enough to pay for the cost of getting them. The company is effectively **"burning" its acquisition budget**. For instance, the company spent 36.48% of the marketing budget to acquire customers on the Starter plan, yet 70.51% of them churned. 
-- With such high churn in the Monthly and Starter tiers, **the monthly income is unpredictable**. The company cannot accurately forecast growth because it doesn't know how many customers will remain next month.
-- Losing an Enterprise customer is much more expensive than losing a Starter customer. The high Enterprise churn rate represents a **massive loss of potential lifetime value.**
-- A 61% churn rate for Referrals suggests that even when someone is "convinced" to join by a friend, the product experience isn't keeping them there. **This can damage the company’s reputation through word-of-mouth over time**.
+𝗞𝗲𝘆 𝗜𝗻𝘀𝗶𝗴𝗵𝘁𝘀
+
+The 𝗼𝘃𝗲𝗿𝗮𝗹𝗹 𝗰𝗵𝘂𝗿𝗻 𝗿𝗮𝘁𝗲 𝗶𝘀 𝟱𝟮.𝟭𝟳 𝗽𝗲𝗿𝗰𝗲𝗻𝘁. Out of 600 clients, 313 have departed. This means CloudTask Pro is working twice as hard to stay in the same spot, since 𝘧𝘰𝘳 𝘦𝘷𝘦𝘳𝘺 𝘯𝘦𝘸 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳 𝘪𝘵 𝘢𝘤𝘲𝘶𝘪𝘳𝘦𝘴, 𝘪𝘵 𝘭𝘰𝘴𝘦𝘴 𝘢𝘯 𝘦𝘹𝘪𝘴𝘵𝘪𝘯𝘨 𝘰𝘯𝘦.
+
+Because of their high churn rates, the following segments are high risk:
+- 𝗠𝗼𝗻𝘁𝗵𝗹𝘆 𝗕𝗶𝗹𝗹𝗶𝗻𝗴 - 𝟲𝟬.𝟱𝟭%. Customers who pay month-to-month are significantly more likely to leave than those committed to longer billing cycles.
+- 𝗦𝘁𝗮𝗿𝘁𝗲𝗿 𝗣𝗹𝗮𝗻 - 𝟳𝟬.𝟱𝟭%. Seven out of ten people who sign up for the Starter plan don't stay.
+- 𝗥𝗲𝗳𝗲𝗿𝗿𝗮𝗹 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝟲𝟭.𝟮𝟵%. Customers referred by friends/partners/colleagues are leaving at a significant rate. Referrals are typically the most loyal, but, in this case, they are nearly as likely to leave as anyone else.
+- 𝗘𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 - 𝟲𝟯.𝟭𝟲%. This is the most alarming discovery. Typically, large Enterprise clients are the most reliable. Losing more than 60% of them suggests that the company's product may not meet this segment's needs, or that it is not providing adequate support once they join.
 
 <br>
 
-**Strategic Recommendations:**
-- To fix the 60.51% monthly churn, CloudTask Pro should **offer a discount(e.g., 2 months free) for customers who switch to annual billing**. This will lock in revenue and give the customer more time to integrate the product into their daily workflow.
-- Since CloudTask Pro is losing 63.16% of its biggest revenue earner, it needs a **dedicated customer success team.** For every Enterprise client, a staff member should be responsible for "onboarding" them and checking in monthly to ensure they are seeing the value of the services and products.
-- With a 70% failure rate at the entry level, the company needs to **look at its product or service offerings**. For instance, is the product too difficult to set up? CloudTask Pro should consider offering a "welcome call" or a simplified "quick-start" guide specifically for new users to help them reach their first "win" with the cloud software quickly.
-- CloudTask Pro should look at who is referring these customers. The company may be incentivizing the "wrong" kind of sign-ups. The company should **consider changing the referral bonus so it is paid only after the new customer has stayed for at least 3 or 6 months.**
+𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗜𝗺𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀
+- CloudTask Pro is spending money to acquire customers (CAC) who 𝗱𝗼𝗻'𝘁 𝘀𝘁𝗮𝘆 𝗹𝗼𝗻𝗴 𝗲𝗻𝗼𝘂𝗴𝗵 𝘁𝗼 𝗽𝗮𝘆 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗰𝗼𝘀𝘁 𝗼𝗳 𝗴𝗲𝘁𝘁𝗶𝗻𝗴 𝘁𝗵𝗲𝗺. The company is effectively "𝗯𝘂𝗿𝗻𝗶𝗻𝗴" 𝗶𝘁𝘀 𝗮𝗰𝗾𝘂𝗶𝘀𝗶𝘁𝗶𝗼𝗻 𝗯𝘂𝗱𝗴𝗲𝘁. For instance, the company spent 𝟯𝟲.𝟰𝟴% 𝗼𝗳 𝘁𝗵𝗲 𝗺𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗯𝘂𝗱𝗴𝗲𝘁 to acquire customers on the Starter plan, yet 𝟳𝟬.𝟱𝟭% 𝗼𝗳 𝘁𝗵𝗲𝗺 𝗰𝗵𝘂𝗿𝗻𝗲𝗱. 
+- With such high churn in the Monthly and Starter tiers, 𝘁𝗵𝗲 𝗺𝗼𝗻𝘁𝗵𝗹𝘆 𝗶𝗻𝗰𝗼𝗺𝗲 𝗶𝘀 𝘂𝗻𝗽𝗿𝗲𝗱𝗶𝗰𝘁𝗮𝗯𝗹𝗲. The company cannot accurately forecast growth because it doesn't know how many customers will remain next month.
+- Losing an Enterprise customer is much more expensive than losing a Starter customer. The high Enterprise churn rate represents 𝗮 𝗺𝗮𝘀𝘀𝗶𝘃𝗲 𝗹𝗼𝘀𝘀 𝗼𝗳 𝗽𝗼𝘁𝗲𝗻𝘁𝗶𝗮𝗹 𝗹𝗶𝗳𝗲𝘁𝗶𝗺𝗲 𝘃𝗮𝗹𝘂𝗲.
+- A 61% churn rate for Referrals suggests that even when someone is "convinced" to join by a friend, the product experience isn't keeping them there. 𝗧𝗵𝗶𝘀 𝗰𝗮𝗻 𝗱𝗮𝗺𝗮𝗴𝗲 𝘁𝗵𝗲 𝗰𝗼𝗺𝗽𝗮𝗻𝘆’𝘀 𝗿𝗲𝗽𝘂𝘁𝗮𝘁𝗶𝗼𝗻 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘄𝗼𝗿𝗱-𝗼𝗳-𝗺𝗼𝘂𝘁𝗵 𝗼𝘃𝗲𝗿 𝘁𝗶𝗺𝗲.
+
+<br>
+
+𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗰 𝗥𝗲𝗰𝗼𝗺𝗺𝗲𝗻𝗱𝗮𝘁𝗶𝗼𝗻𝘀
+- 𝗜𝗻𝗰𝗲𝗻𝘁𝗶𝘃𝗶𝘇𝗲 𝗰𝗼𝗺𝗺𝗶𝘁𝗺𝗲𝗻𝘁. To fix the 𝟲𝟬.𝟱𝟭% 𝗠𝗼𝗻𝘁𝗵𝗹𝘆 𝗰𝗵𝘂𝗿𝗻, CloudTask Pro should 𝗼𝗳𝗳𝗲𝗿 𝗮 𝗱𝗶𝘀𝗰𝗼𝘂𝗻𝘁(𝗲.𝗴., 𝟮 𝗺𝗼𝗻𝘁𝗵𝘀 𝗳𝗿𝗲𝗲) 𝗳𝗼𝗿 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿𝘀 𝘄𝗵𝗼 𝘀𝘄𝗶𝘁𝗰𝗵 𝘁𝗼 𝗔𝗻𝗻𝘂𝗮𝗹 𝗯𝗶𝗹𝗹𝗶𝗻𝗴. This will lock in revenue and give the customer more time to integrate the product into their daily workflow.
+- 𝗟𝗮𝘂𝗻𝗰𝗵 𝗮𝗻 𝗘𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 "𝘀𝘂𝗰𝗰𝗲𝘀𝘀" 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲. Since CloudTask Pro is 𝗹𝗼𝘀𝗶𝗻𝗴 𝟲𝟯.𝟭𝟲% 𝗼𝗳 𝗶𝘁𝘀 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝗿𝗲𝘃𝗲𝗻𝘂𝗲 𝗲𝗮𝗿𝗻𝗲𝗿, it needs 𝗮 𝗱𝗲𝗱𝗶𝗰𝗮𝘁𝗲𝗱 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝘀𝘂𝗰𝗰𝗲𝘀𝘀 𝘁𝗲𝗮𝗺. For every Enterprise client, a staff member should be responsible for onboarding them and checking in monthly to ensure they are seeing the value of the services and products.
+- 𝗔𝘂𝗱𝗶𝘁 𝘁𝗵𝗲 "𝗦𝘁𝗮𝗿𝘁𝗲𝗿" 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲. With a 𝟳𝟬% 𝗳𝗮𝗶𝗹𝘂𝗿𝗲 𝗿𝗮𝘁𝗲 at the entry level, the company needs to 𝗹𝗼𝗼𝗸 𝗮𝘁 𝗶𝘁𝘀 𝗽𝗿𝗼𝗱𝘂𝗰𝘁 𝗼𝗿 𝘀𝗲𝗿𝘃𝗶𝗰𝗲 𝗼𝗳𝗳𝗲𝗿𝗶𝗻𝗴𝘀. For instance, is the product too difficult to set up? CloudTask Pro should consider offering a "welcome call" or a simplified "quick-start" guide specifically for new users to help them reach their first "win" with the CloudTask Pro's software.
+- 𝗥𝗲-𝗲𝘃𝗮𝗹𝘂𝗮𝘁𝗲 𝘁𝗵𝗲 𝗿𝗲𝗳𝗲𝗿𝗿𝗮𝗹 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲. CloudTask Pro should look at who is referring these customers. The company may be incentivizing the "wrong" kind of sign-ups. The company should 𝗰𝗼𝗻𝘀𝗶𝗱𝗲𝗿 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝘁𝗵𝗲 𝗿𝗲𝗳𝗲𝗿𝗿𝗮𝗹 𝗯𝗼𝗻𝘂𝘀 𝘀𝗼 𝗶𝘁 𝗶𝘀 𝗽𝗮𝗶𝗱 𝗼𝗻𝗹𝘆 𝗮𝗳𝘁𝗲𝗿 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗵𝗮𝘀 𝘀𝘁𝗮𝘆𝗲𝗱 𝗳𝗼𝗿 𝗮𝘁 𝗹𝗲𝗮𝘀𝘁 𝟯 𝗼𝗿 𝟲 𝗺𝗼𝗻𝘁𝗵𝘀.
 
 ##
 ##
